@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="laifood" uuid="6d0e6fb9-8686-47dc-bb2d-74b513cea999">
+    <data-source source="LOCAL" name="onlineOrder" uuid="6d0e6fb9-8686-47dc-bb2d-74b513cea999">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://laiproject2021-instance.ceih8gbgu4c7.us-east-2.rds.amazonaws.com:3306/laifood</jdbc-url>
+      <jdbc-url>jdbc:mysql://laiproject2021-instance.ceih8gbgu4c7.us-east-2.rds.amazonaws.com:3306/onlineOrder</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
