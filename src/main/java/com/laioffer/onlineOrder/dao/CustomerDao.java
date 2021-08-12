@@ -40,9 +40,10 @@ public class CustomerDao {
 
     public Customer getCustomer(String email) {
         Customer customer = null;
-        try (Session session = sessionFactory.openSession()) {
-            Criteria criteria = session.createCriteria(Customer.class);
-            customer = (Customer) criteria.add(Restrictions.eq("email", email)).uniqueResult();
+        Session session = null;
+        try {
+             session = sessionFactory.openSession();
+             customer = session.get(Customer.class, email);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

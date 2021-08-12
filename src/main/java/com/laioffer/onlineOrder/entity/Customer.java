@@ -18,6 +18,7 @@ public class Customer implements Serializable  {
 
     private String password;
 
+    //security相关
     private boolean enabled;
 
     @OneToOne(cascade = CascadeType.ALL)
