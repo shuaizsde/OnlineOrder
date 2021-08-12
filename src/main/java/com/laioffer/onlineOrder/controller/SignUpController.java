@@ -21,6 +21,6 @@ public class SignUpController {
     @ResponseStatus(value = HttpStatus.CREATED)
     //@RequestBody： Convert the request body( from json)  to a java object == jackson
     public void signUp(@RequestBody Customer customer) {
-
+        customerService.signUp(customer);
     }
 }
